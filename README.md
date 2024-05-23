@@ -4,6 +4,8 @@ Nicolas Boyer, 2024
 # Project: Rainscene
 This is a project created for my Computer Graphics class, written in C++ OPENGL. It requires a docker container and XLaunch to run.
 
+Use the docker image found in the following link, and follow the instructions: https://github.com/tiperiu/COMP371_dockerimage
+
 # How to Set Up
 
 Here's what you have to do:
