@@ -16,6 +16,7 @@ Here's what you have to do:
 - Start up docker
 - go in a command line, navigate to the folder for the docker image and type ./windows/interactive_run.ps1 "Path to rainscene here"
 - Now that you are in the docker container, navigate to the build folder of the raytracer (./code/build)
+- Run XLaunch with default settings
 - run cmake with the following command: cmake ../
 - then run the following command: make
 - This creates the build files for the application
