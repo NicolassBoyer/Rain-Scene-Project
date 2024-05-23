@@ -2,6 +2,10 @@ Nicolas Boyer, 2024
 40263939
 
 # Project: rainscene
+This is a project created for my Computer Graphics class, written in C++ OPENGL. It requires a docker container and XLaunch to run.
+
+
+
 This is not my project report. Please check the report itself for grading. 
 This is just credit for the models and textures I've used in the project.
 
