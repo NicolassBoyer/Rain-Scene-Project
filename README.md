@@ -1,13 +1,30 @@
 Nicolas Boyer, 2024
 40263939
 
-# Project: rainscene
+# Project: Rainscene
 This is a project created for my Computer Graphics class, written in C++ OPENGL. It requires a docker container and XLaunch to run.
-
-
 
 This is not my project report. Please check the report itself for grading. 
 This is just credit for the models and textures I've used in the project.
+
+# How to Set Up
+
+Here's what you have to do:
+
+- Clone the this repository
+- Clone the docker image
+- Start up docker
+- go in a command line, navigate to the folder for the docker image and type ./windows/interactive_run.ps1 "Path to rainscene here"
+- Now that you are in the docker container, navigate to the build folder of the raytracer (./code/build)
+- run cmake with the following command: cmake ../
+- then run the following command: make
+- This creates the build files for the application
+- You can now run the project with the command ./rainscene
+
+# Controls
+You can move the mouse and use WASD to move the camera around the scene. 
+You can press space to toggle the splashes that the raindrops make when they hit the ground.
+You can press enter to toggle the rain entirely.
 
 # code that not written by me:
 - stb_image does not belong to me. It is a source file taken from the web in order to implement images in the project.
